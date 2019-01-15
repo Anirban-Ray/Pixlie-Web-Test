@@ -86,6 +86,7 @@
               this.timer=setInterval(this.winFunction,2000);
           }else{
             console.log(response.data.message);
+            alert("Only one hero alive");
           }
         })
       },
